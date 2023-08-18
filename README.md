@@ -1,4 +1,4 @@
-# node-door
+# door-listener
 
 [![semantic-release](https://img.shields.io/badge/semantic-release-e10079.svg?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -10,13 +10,13 @@ Listen to the door (Node process) and do something!
 ## Installation
 
 ```
-yarn add node-door
+yarn add door-listener
 ```
 
 ### Usage
 
 ```ts
-import { onClose, onOpen } from 'node-door'
+import { onClose, onOpen } from 'door-listener'
 
 // Top of your entry code
 onOpen(() => {

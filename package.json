@@ -1,5 +1,5 @@
 {
-    "name": "node-door",
+    "name": "door-listener",
     "version": "0.0.0",
     "types": "build",
     "deploy": "build",
@@ -7,9 +7,9 @@
     "main": "build/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/wongnai/node-door.git"
+        "url": "https://github.com/wongnai/door-listener.git"
     },
-    "homepage": "https://github.com/wongnai/node-door#readme",
+    "homepage": "https://github.com/wongnai/door-listener#readme",
     "license": "MIT",
     "scripts": {
         "build": "rollup -c",
